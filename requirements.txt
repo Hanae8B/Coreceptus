@@ -1,0 +1,19 @@
+# === Core Runtime Dependencies ===
+# (Add your app dependencies here if needed)
+# Example:
+# sympy>=1.12
+
+# === Testing ===
+pytest>=8.0.0
+pytest-cov>=4.0.0
+
+# === Code Quality / Formatting ===
+black==24.4.2
+flake8==7.0.0
+mypy==1.10.0
+
+# === Optional (for coverage reports in HTML) ===
+coverage[toml]>=7.4.0
+
+# === Optional (for rich CLI output from pytest) ===
+rich>=13.7.0
